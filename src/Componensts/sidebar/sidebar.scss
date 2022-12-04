@@ -1,0 +1,41 @@
+.sidebar {
+  max-width: 300px;
+  width: 100%;
+  border-right: 2px solid #e8e9e9;
+
+  .sidebar_width {
+    max-width: 300px;
+    width: 100%;
+    .category {
+      padding: 3px, 20px;
+      ul {
+        li {
+          list-style: none;
+          display: flex;
+          align-items: center;
+          //   justify-content: center;
+          margin: 5px 10px;
+          font-weight: 700;
+          cursor: pointer;
+
+          padding: 5px;
+
+          span,
+          input {
+            padding: 0px 5px;
+          }
+        }
+      }
+    }
+    .upper_head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 10px;
+      padding: 5px;
+      span{
+        font-size: 0.7em;
+      }
+    }
+  }
+}

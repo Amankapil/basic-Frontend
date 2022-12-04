@@ -1,0 +1,50 @@
+.application_container {
+  width: 100%;
+  .content {
+    display: flex;
+    padding: 5px;
+    margin-top: 2px;
+    // align-items: center;
+    justify-content: center;
+    color: #696a6a;
+    border-top: 1px solid rgb(49, 47, 47);
+    height: 100%;
+    .button {
+      margin-top: 100px;
+      margin-left: 100px;
+    }
+  }
+  // display: flex;
+  .application_topbar {
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid rgb(49, 47, 47);
+    display: flex;
+    .add {
+      display: flex;
+      align-items: center;
+      color: #696a6a;
+      padding-right: 55px;
+      padding-left: 12px;
+    }
+    .border {
+      width: 100%;
+    }
+    .application_items {
+      display: flex;
+      align-items: center;
+
+      ul {
+        display: flex;
+        align-items: center;
+
+        li {
+          color: #696a6a;
+          list-style: none;
+          cursor: pointer;
+          margin: 10px 25px;
+        }
+      }
+    }
+  }
+}
